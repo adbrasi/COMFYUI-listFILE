@@ -5,7 +5,7 @@ class FindFilesNode:
     def INPUT_TYPES(cls):
         return {
             "required": {
-                "directory": ("STRING", {}),
+                "directory": ("STRING", {"default": "/home/studio-lab-user/ComfyUI/models/loras"}),
                 "text": ("STRING", {})
             }
         }
